@@ -1,0 +1,73 @@
+.api {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-weight: bold;
+}
+  
+#imagenes-gatos {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 500px;
+    max-width: 300px;
+}
+  
+#imagenes-gatos img {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50px;
+    opacity: 0.7;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+}
+  
+#nueva-imagen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #d98b0e;
+    color: white;
+    margin-top: 130px;
+    transition : all 0.3s ease-out;
+
+}
+  
+#nueva-imagen:hover {
+    position: absolute;
+    background-color: #0056b3;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    margin-top: -300px;
+
+}
+  
+
+  
+  

@@ -1,0 +1,35 @@
+
+.cards {
+    margin-top: 50PX;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* corrección: cambia "lfr" por "1fr" */
+    gap: 20px;
+  }
+
+.card{
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    background-image: url("../img/siames.jpeg");
+    background-size: cover;
+    background-position: center;
+    transition : all 0.3s ease-out;
+
+  }
+  .card1{
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    background-image: url("../img/siames.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+  .card2{
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    background-image: url("../img/siames.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+  
